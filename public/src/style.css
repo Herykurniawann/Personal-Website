@@ -1017,10 +1017,6 @@ input:checked + .toggle-bg {
   position: relative;
 }
 
-.sticky {
-  position: sticky;
-}
-
 .inset-0 {
   top: 0px;
   right: 0px;
@@ -1038,6 +1034,14 @@ input:checked + .toggle-bg {
 
 .top-\[200px\] {
   top: 200px;
+}
+
+.top-\[20px\] {
+  top: 20px;
+}
+
+.left-\[20px\] {
+  left: 20px;
 }
 
 .top-\[255px\] {
@@ -1088,21 +1092,6 @@ input:checked + .toggle-bg {
   z-index: 30;
 }
 
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
-.mx-52 {
-  margin-left: 13rem;
-  margin-right: 13rem;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mx-\[544\.5px\] {
   margin-left: 544.5px;
   margin-right: 544.5px;
@@ -1116,6 +1105,11 @@ input:checked + .toggle-bg {
 .mx-\[361px\] {
   margin-left: 361px;
   margin-right: 361px;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .my-\[43px\] {
@@ -1133,16 +1127,29 @@ input:checked + .toggle-bg {
   margin-bottom: 14px;
 }
 
-.mt-5 {
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-5 {
   margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 .mt-\[25px\] {
@@ -1205,6 +1212,10 @@ input:checked + .toggle-bg {
   margin-left: 44px;
 }
 
+.ml-\[27px\] {
+  margin-left: 27px;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1215,30 +1226,6 @@ input:checked + .toggle-bg {
 
 .mb-1 {
   margin-bottom: 0.25rem;
-}
-
-.ml-\[41px\] {
-  margin-left: 41px;
-}
-
-.ml-\[35px\] {
-  margin-left: 35px;
-}
-
-.ml-\[30px\] {
-  margin-left: 30px;
-}
-
-.ml-\[37px\] {
-  margin-left: 37px;
-}
-
-.ml-\[27px\] {
-  margin-left: 27px;
-}
-
-.ml-\[20px\] {
-  margin-left: 20px;
 }
 
 .block {
@@ -1341,10 +1328,6 @@ input:checked + .toggle-bg {
   height: 1rem;
 }
 
-.max-h-full {
-  max-height: 100%;
-}
-
 .w-\[1920px\] {
   width: 1920px;
 }
@@ -1403,10 +1386,6 @@ input:checked + .toggle-bg {
 
 .w-4 {
   width: 1rem;
-}
-
-.max-w-full {
-  max-width: 100%;
 }
 
 .flex-1 {
@@ -1546,10 +1525,6 @@ input:checked + .toggle-bg {
   border-radius: 9999px;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -1605,34 +1580,24 @@ input:checked + .toggle-bg {
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
 }
 
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(18 48 67 / var(--tw-bg-opacity));
-}
-
-.bg-green-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(1 71 55 / var(--tw-bg-opacity));
-}
-
-.bg-blue-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(28 100 242 / var(--tw-bg-opacity));
-}
-
-.bg-blue-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(26 86 219 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 48 67 / var(--tw-bg-opacity));
+}
+
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-blue-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 86 219 / var(--tw-bg-opacity));
 }
 
 .bg-gray-100 {
@@ -1674,29 +1639,14 @@ input:checked + .toggle-bg {
   padding: 0.5rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.py-96 {
-  padding-top: 24rem;
-  padding-bottom: 24rem;
-}
-
 .py-\[21px\] {
   padding-top: 21px;
   padding-bottom: 21px;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .px-2 {
@@ -1734,11 +1684,6 @@ input:checked + .toggle-bg {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-\[48px\] {
@@ -1886,10 +1831,6 @@ input:checked + .toggle-bg {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:font-bold:hover {
-  font-weight: 700;
 }
 
 .hover\:text-gray-900:hover {
