@@ -1205,6 +1205,10 @@ input:checked + .toggle-bg {
   margin-bottom: 0.25rem;
 }
 
+.mr-\[43px\] {
+  margin-right: 43px;
+}
+
 .block {
   display: block;
 }
@@ -1661,6 +1665,10 @@ input:checked + .toggle-bg {
 
 .pt-2 {
   padding-top: 0.5rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .text-center {
